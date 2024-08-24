@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+}
+/*
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 1000px;
+}
+section#area-de-login{
+    background-color: red;
+
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+section#area-de-login section#fazer-login{
+    padding-right: 100px;
+}
+section#area-de-login section#colocar-email{
+
+}
+section#area-de-login section#colocar-email input[type="email"]{
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+div.imagem{
+    max-width: 50px;
+}
+div.imagem img{
+    width: 100%;
+}*/
+
+
+body{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    max-width: 970px;
+}
+section#area-de-login{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+
+    width: 450px;
+    height: 550px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    border: 0.009px solid rgba(202, 202, 202, 0.83);
+}
+section#area-de-login-dois{
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+
+    width: 450px;
+    height: 550px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    border: 0.009px solid rgba(202, 202, 202, 0.83);
+}
+div.imagem{
+    max-width: 50px;
+}
+div.imagem img{
+    width: 100%;
+}
+section#area-de-login section#fazer-login{
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+section#area-de-login section#colocar-email{
+
+}
+section#area-de-login section#colocar-email p#esqueci{
+    color: blue;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+    font-size: 13px;
+}
+section#area-de-login section#colocar-email p{
+    padding: 0 20px;
+}
+section#area-de-login section#colocar-email p#visitante{
+    color: blue;
+    font-size: 13px;
+}
+
+section#area-de-login section#colocar-email input[type="email"]{
+    border: 0.009px solid rgba(202, 202, 202, 0.83);
+    border-radius: 3px;
+
+    padding: 10px;
+    width: 90%;
+}
+section#area-de-login section#colocar-email div#botoes{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 40px 0;
+}
+section#area-de-login section#colocar-email div#botoes #criar{
+    color: blue;
+    background-color: unset;
+    padding: 15px;
+}
+section#area-de-login section#colocar-email div#botoes #avancar{
+    background-color: blue;
+    color: white;
+
+    text-align: center;
+    vertical-align: middle;
+
+    padding: 5px 20px;
+
+
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
